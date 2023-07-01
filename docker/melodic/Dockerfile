@@ -3,7 +3,7 @@ FROM ros:melodic-robot
 # Update
 RUN apt update
 RUN apt-get install software-properties-common apt-utils -y
-RUN apt-get install tmux -y
+RUN apt-get install tmux vim -y
 RUN apt-get install libnvidia-gl-440 -y
 
 # Set working directory

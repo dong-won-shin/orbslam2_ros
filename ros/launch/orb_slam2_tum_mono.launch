@@ -47,5 +47,5 @@
       <param name="camera_k3" type="double" value="0.0" />
   </node>
   <node type="rviz" name="rviz" pkg="rviz" args="-d $(find orb_slam2_ros)/ros/config/rviz_config.rviz" />
-  <node pkg="rosbag" type="play" name="player" output="screen" args="--clock /share/rgbd_dataset_freiburg3_long_office_household.bag"/>
+  <node pkg="rosbag" type="play" name="player" output="screen" args="--clock /share/rgbd_dataset_freiburg3_teddy.bag"/>
 </launch>
