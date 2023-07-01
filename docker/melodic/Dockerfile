@@ -10,7 +10,7 @@ RUN apt-get install libnvidia-gl-440 -y
 WORKDIR /home/ros/src
 
 # Get the realsense package from git
-RUN git clone https://github.com/appliedAI-Initiative/orb_slam_2_ros.git
+RUN git clone https://github.com/dong-won-shin/orbslam2_ros.git
 
 # Set up Melodic keys
 RUN apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
